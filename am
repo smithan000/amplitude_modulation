@@ -30,9 +30,7 @@ plot(t,yc), grid on;% Graphical representation of carrier signal
 title ( ' Carrier Signal ');
 xlabel ( ' time(sec) ');
 ylabel (' Amplitude(volt) ');
-%XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX AM Modulation
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-13
+
 y=Ac*(1+m*sin(2*pi*fa*t)).*sin(2*pi*fc*t); % Equation of Amplitude
 %modulated signal
 subplot(3,1,3);
